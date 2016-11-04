@@ -4,7 +4,7 @@ from urlparse import urljoin
 import requests
 import csv
 
-url = "http://sh.58.com/pinpaigongyu/pn/{page}/?minprice=2000_3000"
+url = "http://sh.58.com/pinpaigongyu/pn/{page}/?minprice=1500_2000"
 page = 0
 csv_file = open('rent.csv', 'wb')
 csv_writer = csv.writer(csv_file, delimiter=',')
